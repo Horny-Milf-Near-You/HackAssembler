@@ -6,35 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/eneag/CLionProjects/HackAssembler/A-Instruction.h
-strmap.h
-C:/Users/eneag/CLionProjects/HackAssembler/strmap.h
-
-C:/Users/eneag/CLionProjects/HackAssembler/C-Instruction.h
-strmap.h
-C:/Users/eneag/CLionProjects/HackAssembler/strmap.h
-
-C:/Users/eneag/CLionProjects/HackAssembler/Parser.h
-
-C:/Users/eneag/CLionProjects/HackAssembler/main.c
-stdio.h
--
-stdbool.h
--
-strings.h
--
+C:/Users/eneag/OneDrive/Desktop/Progetti/HackAssembler/Parser.c
 Parser.h
-C:/Users/eneag/CLionProjects/HackAssembler/Parser.h
-A-Instruction.h
-C:/Users/eneag/CLionProjects/HackAssembler/A-Instruction.h
-strmap.h
-C:/Users/eneag/CLionProjects/HackAssembler/strmap.h
-C-Instruction.h
-C:/Users/eneag/CLionProjects/HackAssembler/C-Instruction.h
-
-C:/Users/eneag/CLionProjects/HackAssembler/strmap.h
-stdlib.h
+C:/Users/eneag/OneDrive/Desktop/Progetti/HackAssembler/Parser.h
+stdio.h
 -
 string.h
 -
+stdbool.h
+-
+
+C:/Users/eneag/OneDrive/Desktop/Progetti/HackAssembler/Parser.h
 

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include <strings.h>
 #include "Parser.h"
 #include "A-Instruction.h"
 #include "strmap.h"

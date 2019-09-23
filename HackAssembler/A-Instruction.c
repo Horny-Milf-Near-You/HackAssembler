@@ -48,10 +48,16 @@ void translateAInst(char toTranslate[]) {
     translatedInst[INST_SIZE] = '\0';
 
     if(sm_get(SymbolTable, toTranslate, translatedInst, sizeof(translatedInst)) == 1) {
+        //If the label is already in the Map
         toTranslate[INST_SIZE] = '\0';
         strncpy(toTranslate, translatedInst, INST_SIZE);
-    } else
-        printf("Error! label: %s not found \n", toTranslate);
+    } else {
+       //If the label is not in the map then is a "@93", "@32", and so on
+       printf("Error, label %s not found", toTranslate); //TODO REMOVE
+       int respective_int = str_to_int(toTranslate);
+       printf("%d is the respective int translation, in binary %s", respective_int, binaryConverter(respective_int)); //TODO REMOVE
+       strncpy(toTranslate, binaryConverter(respective_int), INST_SIZE);
+    }
 }
 
 void labelHandler(char labelDec[]) {

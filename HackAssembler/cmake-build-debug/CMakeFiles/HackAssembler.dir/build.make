@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\eneag\CLionProjects\HackAssembler
+CMAKE_SOURCE_DIR = C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HackAssembler.dir/depend.make
@@ -58,68 +58,68 @@ include CMakeFiles/HackAssembler.dir/flags.make
 
 CMakeFiles/HackAssembler.dir/main.c.obj: CMakeFiles/HackAssembler.dir/flags.make
 CMakeFiles/HackAssembler.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HackAssembler.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\main.c.obj   -c C:\Users\eneag\CLionProjects\HackAssembler\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HackAssembler.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\main.c.obj   -c C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\main.c
 
 CMakeFiles/HackAssembler.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HackAssembler.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\CLionProjects\HackAssembler\main.c > CMakeFiles\HackAssembler.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\main.c > CMakeFiles\HackAssembler.dir\main.c.i
 
 CMakeFiles/HackAssembler.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HackAssembler.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\CLionProjects\HackAssembler\main.c -o CMakeFiles\HackAssembler.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\main.c -o CMakeFiles\HackAssembler.dir\main.c.s
 
 CMakeFiles/HackAssembler.dir/Parser.c.obj: CMakeFiles/HackAssembler.dir/flags.make
 CMakeFiles/HackAssembler.dir/Parser.c.obj: ../Parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HackAssembler.dir/Parser.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\Parser.c.obj   -c C:\Users\eneag\CLionProjects\HackAssembler\Parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HackAssembler.dir/Parser.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\Parser.c.obj   -c C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\Parser.c
 
 CMakeFiles/HackAssembler.dir/Parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HackAssembler.dir/Parser.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\CLionProjects\HackAssembler\Parser.c > CMakeFiles\HackAssembler.dir\Parser.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\Parser.c > CMakeFiles\HackAssembler.dir\Parser.c.i
 
 CMakeFiles/HackAssembler.dir/Parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HackAssembler.dir/Parser.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\CLionProjects\HackAssembler\Parser.c -o CMakeFiles\HackAssembler.dir\Parser.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\Parser.c -o CMakeFiles\HackAssembler.dir\Parser.c.s
 
 CMakeFiles/HackAssembler.dir/A-Instruction.c.obj: CMakeFiles/HackAssembler.dir/flags.make
 CMakeFiles/HackAssembler.dir/A-Instruction.c.obj: ../A-Instruction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HackAssembler.dir/A-Instruction.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\A-Instruction.c.obj   -c C:\Users\eneag\CLionProjects\HackAssembler\A-Instruction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HackAssembler.dir/A-Instruction.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\A-Instruction.c.obj   -c C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\A-Instruction.c
 
 CMakeFiles/HackAssembler.dir/A-Instruction.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HackAssembler.dir/A-Instruction.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\CLionProjects\HackAssembler\A-Instruction.c > CMakeFiles\HackAssembler.dir\A-Instruction.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\A-Instruction.c > CMakeFiles\HackAssembler.dir\A-Instruction.c.i
 
 CMakeFiles/HackAssembler.dir/A-Instruction.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HackAssembler.dir/A-Instruction.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\CLionProjects\HackAssembler\A-Instruction.c -o CMakeFiles\HackAssembler.dir\A-Instruction.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\A-Instruction.c -o CMakeFiles\HackAssembler.dir\A-Instruction.c.s
 
 CMakeFiles/HackAssembler.dir/strmap.c.obj: CMakeFiles/HackAssembler.dir/flags.make
 CMakeFiles/HackAssembler.dir/strmap.c.obj: ../strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HackAssembler.dir/strmap.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\strmap.c.obj   -c C:\Users\eneag\CLionProjects\HackAssembler\strmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HackAssembler.dir/strmap.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\strmap.c.obj   -c C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\strmap.c
 
 CMakeFiles/HackAssembler.dir/strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HackAssembler.dir/strmap.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\CLionProjects\HackAssembler\strmap.c > CMakeFiles\HackAssembler.dir\strmap.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\strmap.c > CMakeFiles\HackAssembler.dir\strmap.c.i
 
 CMakeFiles/HackAssembler.dir/strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HackAssembler.dir/strmap.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\CLionProjects\HackAssembler\strmap.c -o CMakeFiles\HackAssembler.dir\strmap.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\strmap.c -o CMakeFiles\HackAssembler.dir\strmap.c.s
 
 CMakeFiles/HackAssembler.dir/C-Instruction.c.obj: CMakeFiles/HackAssembler.dir/flags.make
 CMakeFiles/HackAssembler.dir/C-Instruction.c.obj: ../C-Instruction.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HackAssembler.dir/C-Instruction.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\C-Instruction.c.obj   -c C:\Users\eneag\CLionProjects\HackAssembler\C-Instruction.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HackAssembler.dir/C-Instruction.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HackAssembler.dir\C-Instruction.c.obj   -c C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\C-Instruction.c
 
 CMakeFiles/HackAssembler.dir/C-Instruction.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HackAssembler.dir/C-Instruction.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\CLionProjects\HackAssembler\C-Instruction.c > CMakeFiles\HackAssembler.dir\C-Instruction.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\C-Instruction.c > CMakeFiles\HackAssembler.dir\C-Instruction.c.i
 
 CMakeFiles/HackAssembler.dir/C-Instruction.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HackAssembler.dir/C-Instruction.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\CLionProjects\HackAssembler\C-Instruction.c -o CMakeFiles\HackAssembler.dir\C-Instruction.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\C-Instruction.c -o CMakeFiles\HackAssembler.dir\C-Instruction.c.s
 
 # Object files for target HackAssembler
 HackAssembler_OBJECTS = \
@@ -141,7 +141,7 @@ HackAssembler.exe: CMakeFiles/HackAssembler.dir/build.make
 HackAssembler.exe: CMakeFiles/HackAssembler.dir/linklibs.rsp
 HackAssembler.exe: CMakeFiles/HackAssembler.dir/objects1.rsp
 HackAssembler.exe: CMakeFiles/HackAssembler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable HackAssembler.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable HackAssembler.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HackAssembler.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +154,6 @@ CMakeFiles/HackAssembler.dir/clean:
 .PHONY : CMakeFiles/HackAssembler.dir/clean
 
 CMakeFiles/HackAssembler.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\eneag\CLionProjects\HackAssembler C:\Users\eneag\CLionProjects\HackAssembler C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug C:\Users\eneag\CLionProjects\HackAssembler\cmake-build-debug\CMakeFiles\HackAssembler.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug C:\Users\eneag\OneDrive\Desktop\Progetti\HackAssembler\cmake-build-debug\CMakeFiles\HackAssembler.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HackAssembler.dir/depend
 

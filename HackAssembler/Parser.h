@@ -14,5 +14,6 @@ int determineInstType(char input[]);
 void separateAndClean(char input[], char LHS[], char RHS[], char breakpoint);
 int contains(char line[], char contained);
 void pasteTheString(char destStr[], char inputStr[], int indexToStart);
+int str_to_int(char toCast[]);
 
 #endif //HACKASSEMBLER_PARSER_H

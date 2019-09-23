@@ -116,3 +116,15 @@ void pasteTheString(char destStr[], char inputStr[], int indexToStart) {
         i++, j++;
     }
 }
+
+int str_to_int(char toCast[]) {
+    int casted = 0;
+
+    for(int i = 0; toCast[i] != '\0'; i++) {
+        if ((toCast[i] > 48) && (toCast[i] < 57)) {
+            casted = toCast[i] - 48;
+            casted = casted * 10;
+        } else return(0);
+    }
+    return(casted/10); //Normalize off by one error
+}
