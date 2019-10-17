@@ -53,9 +53,8 @@ void translateAInst(char toTranslate[]) {
         strncpy(toTranslate, translatedInst, INST_SIZE);
     } else {
        //If the label is not in the map then is a "@93", "@32", and so on
-       printf("Error, label %s not found", toTranslate); //TODO REMOVE
+       //The str_to_int method check that effectively the string is made up of only number else return(-1)
        int respective_int = str_to_int(toTranslate);
-       printf("%d is the respective int translation, in binary %s", respective_int, binaryConverter(respective_int)); //TODO REMOVE
        strncpy(toTranslate, binaryConverter(respective_int), INST_SIZE);
     }
 }
@@ -81,6 +80,8 @@ char* binaryConverter(int toConvert) {
     int unused = toConvert;
     char* memAddress_bin = (char*) malloc(sizeof(char) * (INST_SIZE + 1));
     memAddress_bin[INST_SIZE] = '\0';
+
+    if(toConvert == -1) return("Error!\0");
 
     for(int i = INST_SIZE - 1; i >= 0; i--) {
         memAddress_bin[i] = (toConvert % 2) + 48; //Casting the number to a char

@@ -124,7 +124,7 @@ int str_to_int(char toCast[]) {
         if ((toCast[i] > 48) && (toCast[i] < 57)) {
             casted = toCast[i] - 48;
             casted = casted * 10;
-        } else return(0);
+        } else return(-1);
     }
     return(casted/10); //Normalize off by one error
 }
