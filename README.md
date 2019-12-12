@@ -6,7 +6,9 @@ This program is my personal implementation of the sixth nand2tetris project, the
 
 ## How-To
 After building the .c source file into executable, simply open your terminal, go to the location where the executable is and write:
-**"HackAssembler input_path output_path"**
+```console
+usr@computer:~/Hack-Assembler$ ./Hack-Assembler input_path output_path
+```
 
 ## Implementation
 The program scan two times the input file, the first time only add a label to the SymbolTable map when the label is declared in the code.
